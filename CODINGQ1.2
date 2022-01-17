@@ -1,0 +1,32 @@
+package myLabTest;
+
+import java.util.Scanner;
+
+class LabTest2_Q1b {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		double base_radius,height;
+		double base_area,surface_area,volume;
+		
+		System.out.println("Please enter the base radius : ");
+		base_radius=in.nextDouble();
+		
+		System.out.println("Please enter the height : ");
+		height=in.nextDouble();
+		
+		base_area=Math.PI*base_radius*base_radius;
+		surface_area=2.0*Math.PI*base_radius+2.0*base_area;
+		volume=base_area*height;
+		
+		System.out.printf("The base area is %.2f" ,base_area);
+		System.out.println();
+		System.out.printf("The surface area is %.2f" ,surface_area);
+		System.out.println();
+		System.out.printf("The volume is %.2f" ,volume);
+
+		
+
+	}
+
+}
