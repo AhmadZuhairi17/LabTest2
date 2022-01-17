@@ -8,7 +8,7 @@ class LabTest2_Q2_TimeTable {
 		Scanner in=new Scanner(System.in);
 		int size,addition=0;
 		
-		System.out.println("Enter the size : ");
+		System.out.print("Enter the size : ");
 		size=in.nextInt();
 		
 		System.out.print(" * |    ");
